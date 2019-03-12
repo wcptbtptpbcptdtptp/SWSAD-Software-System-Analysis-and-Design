@@ -1,11 +1,11 @@
 hw1 16341025_朱满
 
-1.软件工程的定义
+#1.软件工程的定义
 Software engineering is “(1) the application of a systematic, disciplined, quantifiable approach to the development, operation,
 and maintenance of software, that is, the application of engineering to software,” and “(2) the study of approaches as in (1).”
 –– IEEE Standard 610.12
 
-2.解释导致 software crisis 本质原因、表现，述说克服软件危机的方法
+##2.解释导致 software crisis 本质原因、表现，述说克服软件危机的方法
 本质原因：
 因为软件具有以下本质特性。
 complexity 复杂性
@@ -22,10 +22,10 @@ invisibility 不可视性
 要克服软件危机，就要认真分析软件危机的原因，探索用工程的方法进行软件生产的可能性，即用现代工程的概念、原理、技术和方法进行计算机软件的开发、管理、维
 护和更新。
 
-3.软件生命周期
+###3.软件生命周期
 在时间维度，对软件项目任务进行划分，又成为软件开发过程。常见有瀑布模型、螺旋模型、敏捷的模型等。
 
-4.SWEBoK 的 15 个知识域（An Overview of the SWEBOK Guide 请中文翻译其名称与简短说明）
+####4.SWEBoK 的 15 个知识域（An Overview of the SWEBOK Guide 请中文翻译其名称与简短说明）
 （1）Software Requirements：软件需求。软件需求涉及到引出、协商、分析、规范和验证，表达了对软件产品的需求和约束。
 （2）Software Design：软件设计。设计被定义位系统或组件的体系结构、组件、接口和其他特征的过程，以及改过程的结果。软件设计包括设计过程和最终产品。
 （3）Software Construction：软件构建。软件构建是知通过详细设计、编码、单元测试、集成测试、调试和验证相结合，对工作软件进行详细创建。
@@ -57,7 +57,7 @@ invisibility 不可视性
 （15）Engineering Foundations：工程基础。工程基础涵盖了为软件工程实践提供必要的工程背景的基本主题。所涵盖的主题包括实证方法和实验技术;统计分析;测
     量和度量;工程设计;仿真和建模;以及根本原因分析。
 
-5.简单解释 CMMI 的五个级别。例如：Level 1 - Initial：无序，自发生产模式。
+#####5.简单解释 CMMI 的五个级别。例如：Level 1 - Initial：无序，自发生产模式。
 Level 1 - Initial：
 软件过程是无序的，有时甚至是混乱的，对过程几乎没有定义，成功取决于个人努力。管理是反应式的。
 Level 2 - Managed：
@@ -70,7 +70,7 @@ Level 4 - Quantitatively Managed：
 Level 5 - Optimizing：
 过程的量化反馈和先进的新思想、新技术促使过程持续不断改进。
 
-6.用自己语言简述 SWEBok 或 CMMI （约200字）
+######6.用自己语言简述 SWEBok 或 CMMI （约200字）
 SWEBoK，软件工程知识体系，是为了克服软件危机由IEEE构建的软件生产和最佳实践和相关知识的框架，指导软件工程人才的培养和学科建设。SWEBoK 将知识分为软
 件工程实践和基础教育两个部分，共 15 个知识域，并且Software Engineering Process 从时间维度给出了项目的过程模型、其它知识域则从内容角度给出原则方
 法，让软件工程沿时间轴变成了在什么时刻、工作目标、应该做什么、怎么做的 最佳实践指南。
