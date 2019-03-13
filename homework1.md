@@ -31,7 +31,7 @@ and maintenance of software, that is, the application of engineering to software
 
 4.SWEBoK 的 15 个知识域（An Overview of the SWEBOK Guide 请中文翻译其名称与简短说明）
 -----------------
-* (1)Software Requirements：软件需求。软件需求涉及到引出、协商、分析、规范和验证，表达了对软件产品的需求和约束。
+* （1）Software Requirements：软件需求。软件需求涉及到引出、协商、分析、规范和验证，表达了对软件产品的需求和约束。
 * （2）Software Design：软件设计。设计被定义位系统或组件的体系结构、组件、接口和其他特征的过程，以及改过程的结果。软件设计包括设计过程和最终产品。
 * （3）Software Construction：软件构建。软件构建是知通过详细设计、编码、单元测试、集成测试、调试和验证相结合，对工作软件进行详细创建。
 * （4）Software Testing：软件测试。测试是对产品质量进行评估并通过识别缺陷来改进产品质量的活动。软件测试涉及到在一组有限的测试用例上根据预期行为动态地验证程序的行为。这些测试用例是从(通常非常大的)执行域中选择的。
