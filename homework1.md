@@ -1,7 +1,7 @@
 hw1 16341025 朱满
 =========
 1.软件工程的定义
----------
+---------------
 Software engineering is “(1) the application of a systematic, disciplined, quantifiable approach to the development, operation,
 and maintenance of software, that is, the application of engineering to software,” and “(2) the study of approaches as in (1).”
 –– IEEE Standard 610.12
