@@ -45,7 +45,7 @@
  * 每个人的任务是明确的。必须一周后可以看到具体结果。
  * 每个人的任务是1-2项。
  * 至少包含一个团队活动任务。
-     ![umel](cache.png)
+     ![umel](/cathce.png)
 * UML绘图工具练习（提交贴图，必须使用UMLet)
  * 至少包含一个团队活动任务。
  ![](https://github.com/wcptbtptpbcptdtptp/SWSAD-Software-System-Analysis-and-Design/blob/master/%E6%8D%95%E8%8E%B7.PNG)
