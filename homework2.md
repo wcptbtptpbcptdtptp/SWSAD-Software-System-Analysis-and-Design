@@ -50,6 +50,6 @@
 
 * UML绘图工具练习（提交贴图，必须使用UMLet)
 
- ![ueml](https://github.com/wcptbtptpbcptdtptp/SWSAD-Software-System-Analysis-and-Design/blob/master/%E6%8D%95%E8%8E%B7.PNG)
+ ![ueml](/cache.png)
  
  * 至少包含一个团队活动任务。
