@@ -71,9 +71,9 @@
 * 请用色彩标注出你认为创新（区别于竞争对手的）用例或子用例
 * 尽可能识别外部系统和服务
 
-![umel](/Reserve Hotel.png)
+    ![umel](/Reserve Hotel.png)
 
-![umel](/Cat Eye App.png)
+    ![umel](/Cat Eye App.png)
 
 2、然后，回答下列问题：
 
