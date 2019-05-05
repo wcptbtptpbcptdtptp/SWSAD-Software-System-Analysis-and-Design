@@ -10,7 +10,7 @@
         Hotel（ID/Key，Name，LoctionID/Fkey，Address…..）
 > make reservation 领域模型	
 
-![umel](/reservation.jpg)
+> ![umel](/reservation.jpg)
 
 > Hotel (ID/Key, LocationID/FKey, Name, Address, Star, Brief-intro, isFavourites, isLowestPrice, isHigestStarRating, isAlphabetical))
 Location (ID/Key, Name, isFavourite)
@@ -21,7 +21,7 @@ ReservationItem (ID/Key, ReservationID/FKey, RoomID/Fkey, AdultsNum, ChildrenNum
 
 > payment领域模型
 
-![umel](/payment.jpg)
+> ![umel](/payment.jpg)
 
 > Payment (ID/Key, ReservationID/FKey, Date, Time, Total)
 PaymentItem (ID/Key, PaymentID/FKey, Details)
@@ -34,4 +34,4 @@ AddressDetail (ID/Key, PaymentItemID/FKey, Name, Address, City, State, Country)
 * 建模要求： 参考练习不能提供足够信息帮助你对订单对象建模，请参考现在 定旅馆 的旅游网站，尽可能分析围绕订单发生的各种情况，直到订单通过销售事件（柜台销售）结束订单。
 > 订单对象生命周期模型
 
-![umel](/订单对象生命周期模型.jpg)
+> ![umel](/订单对象生命周期模型.jpg)
