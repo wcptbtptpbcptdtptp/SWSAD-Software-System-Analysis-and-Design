@@ -11,20 +11,20 @@
 	
 #### make reservation 领域模型	
 > ![umel](/reservation.jpg)
-> Hotel (ID/Key, LocationID/FKey, Name, Address, Star, Brief-intro, isFavourites, isLowestPrice, isHigestStarRating, isAlphabetical))
-> Location (ID/Key, Name, isFavourite)
-> Room (ID/Key, HotelID/FKey, Type, Date, isAvailable, isReserved, Price)
-> Traveler (ID/Key, Name, Email)
-> Reservation (ID/Key, TravelerID/FKey, HotelID/FKey, CheckInDate, NumberofNights)
-> ReservationItem (ID/Key, ReservationID/FKey, RoomID/Fkey, AdultsNum, ChildrenNum, ChildrenAge)
+> * Hotel (ID/Key, LocationID/FKey, Name, Address, Star, Brief-intro, isFavourites, isLowestPrice, isHigestStarRating, isAlphabetical))
+> * Location (ID/Key, Name, isFavourite)
+> * Room (ID/Key, HotelID/FKey, Type, Date, isAvailable, isReserved, Price)
+> * Traveler (ID/Key, Name, Email)
+> * Reservation (ID/Key, TravelerID/FKey, HotelID/FKey, CheckInDate, NumberofNights)
+> * ReservationItem (ID/Key, ReservationID/FKey, RoomID/Fkey, AdultsNum, ChildrenNum, ChildrenAge)
 
 #### payment领域模型
 > ![umel](/payment.jpg)
-> Payment (ID/Key, ReservationID/FKey, Date, Time, Total)
-> PaymentItem (ID/Key, PaymentID/FKey, Details)
-> CreditCard (ID/Key, CustomerID/FKey, PaymentID/FKey, Type)
-> CreditCardDetail (ID/Key, CreditCardID/FKey, PaymentItemID/FKey, Number, SecurityCode, ExpiryDate)
-> AddressDetail (ID/Key, PaymentItemID/FKey, Name, Address, City, State, Country)
+> * Payment (ID/Key, ReservationID/FKey, Date, Time, Total)
+> * PaymentItem (ID/Key, PaymentID/FKey, Details)
+> * CreditCard (ID/Key, CustomerID/FKey, PaymentID/FKey, Type)
+> * CreditCardDetail (ID/Key, CreditCardID/FKey, PaymentItemID/FKey, Number, SecurityCode, ExpiryDate)
+> * AddressDetail (ID/Key, PaymentItemID/FKey, Name, Address, City, State, Country)
 	
 	
 #### 2、使用 UML State Model，对每个订单对象生命周期建模
