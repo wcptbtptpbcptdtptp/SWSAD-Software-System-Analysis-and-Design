@@ -8,7 +8,25 @@
         * 属性要注意计算字段
 * 数据建模，为了简化描述仅需要给出表清单，例如：
         Hotel（ID/Key，Name，LoctionID/Fkey，Address…..）
+> make resrvation 领域模型	
+
+
+> Hotel (ID/Key, LocationID/FKey, Name, Address, Star, Brief-intro, isFavourites, isLowestPrice, isHigestStarRating, isAlphabetical))
+Location (ID/Key, Name, isFavourite)
+Room (ID/Key, HotelID/FKey, Type, Date, isAvailable, isReserved, Price)
+Traveler (ID/Key, Name, Email)
+Reservation (ID/Key, TravelerID/FKey, HotelID/FKey, CheckInDate, NumberofNights)
+ReservationItem (ID/Key, ReservationID/FKey, RoomID/Fkey, AdultsNum, ChildrenNum, ChildrenAge)
+
+> payment领域模型
+
+> Payment (ID/Key, ReservationID/FKey, Date, Time, Total)
+PaymentItem (ID/Key, PaymentID/FKey, Details)
+CreditCard (ID/Key, CustomerID/FKey, PaymentID/FKey, Type)
+CreditCardDetail (ID/Key, CreditCardID/FKey, PaymentItemID/FKey, Number, SecurityCode, ExpiryDate)
+AddressDetail (ID/Key, PaymentItemID/FKey, Name, Address, City, State, Country)
 		  
  #### 2、使用 UML State Model，对每个订单对象生命周期建模
 * 建模对象： 参考 Asg_RH 文档， 对 Reservation/Order 对象建模。
 * 建模要求： 参考练习不能提供足够信息帮助你对订单对象建模，请参考现在 定旅馆 的旅游网站，尽可能分析围绕订单发生的各种情况，直到订单通过销售事件（柜台销售）结束订单。
+> 订单对象生命周期模型
