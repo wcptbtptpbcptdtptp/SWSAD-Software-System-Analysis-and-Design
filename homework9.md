@@ -10,7 +10,8 @@
         Hotel（ID/Key，Name，LoctionID/Fkey，Address…..）
 > make reservation 领域模型	
 
-![umel](/makeresrvation.jpg)
+![umel](/reservation.jpg)
+
 > Hotel (ID/Key, LocationID/FKey, Name, Address, Star, Brief-intro, isFavourites, isLowestPrice, isHigestStarRating, isAlphabetical))
 Location (ID/Key, Name, isFavourite)
 Room (ID/Key, HotelID/FKey, Type, Date, isAvailable, isReserved, Price)
